@@ -83,4 +83,7 @@ keymap("n", "<leader>\\", ":NvimTreeToggle<cr>", opts)
 
 
 -- Format file buffer
-keymap("n", "<leader>ff", "<cmd>Format<cr>", opts)
+keymap("n", "<leader>ff", "<cmd>Format<cr><cmd>w<cr>", opts)
+
+--Close Buffer and focus on previous buffer
+keymap("n", "<leader>fq", ":bd<cr>:bp<cr>", opts)
