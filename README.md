@@ -10,6 +10,22 @@ git clone https://github.com/ayrbox/neovim-config.git ~/.config/nvim
 Run `nvim` and wait for the plugins to be installed 
 
 
+Nerd Font:
+
+Install Jetbrains Mono Nerd font using vim.
+
+```
+brew tap homebrew/cask-fonts &&
+brew install --cask font-jetbrains-mono-nerd-font
+```
+
+For any other font.
+
+```
+brew install --cask font-<FONTNAME>-nerd-font
+```
+
+
 Dependencies:
 - [nodejs](https://nodejs.org/en/)
 - npm 
