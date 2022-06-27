@@ -82,9 +82,9 @@ nvim_tree.setup {
     icons = {
       show = {
         git = false,
-        folder = false,
-        file = false,
-        folder_arrow = false,
+        folder = true,
+        file = true,
+        folder_arrow = true,
       },
       glyphs = {
         default = "",
@@ -99,11 +99,11 @@ nvim_tree.setup {
           ignored = "◌",
         },
         folder = {
-          default = "📁",
-          open = "📂",
-          empty = "📁",
-          empty_open = "📁",
-          symlink = "💥",
+          default = "",
+          open = "",
+          empty = "",
+          empty_open = "",
+          symlink = "",
         },
       }
     },
