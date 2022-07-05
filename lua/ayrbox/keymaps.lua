@@ -77,6 +77,7 @@ keymap("n", "<leader>c", ":noh<cr>", opts)
 -- File Search -- Telescope
 keymap("n", "<C-p>", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>fa", "<cmd>Telescope live_grep<cr>", opts)
+keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 
 -- nvim Tree Toggle 
 keymap("n", "<leader>\\", ":NvimTreeToggle<cr>", opts)

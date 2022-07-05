@@ -1,4 +1,4 @@
-local colorSchemeName = 'terafox'
+local colorSchemeName = 'nordfox'
 
 local status_ok, _ = pcall(vim.cmd, 'colorscheme ' .. colorSchemeName)
 if not status_ok then
