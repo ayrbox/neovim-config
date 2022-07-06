@@ -83,8 +83,6 @@ keymap("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 keymap("n", "<leader>\\", ":NvimTreeToggle<cr>", opts)
 
 
--- Format file buffer
-keymap("n", "<leader>ff", "<cmd>Format<cr><cmd>w<cr>", opts)
-
---Close Buffer and focus on previous buffer
-keymap("n", "<leader>fq", ":bd<cr>:bp<cr>", opts)
+-- Buffers
+keymap("n", "<leader>ff", "<cmd>Format<cr><cmd>w<cr>", opts) -- Format Buffer 
+keymap("n", "<leader>fw", ":bd<cr>:bp<cr>", opts) --Close Buffer and focus on previous buffer
